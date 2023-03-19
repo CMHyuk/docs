@@ -1,0 +1,11 @@
+### 요청 필드
+include::{snippets}/save/request-fields.adoc[]
+
+### 요청
+include::{snippets}/save/curl-request.adoc[]
+
+### 응답
+include::{snippets}/save/http-response.adoc[]
+
+### CURL
+include::{snippets}/save/http-request.adoc[]
