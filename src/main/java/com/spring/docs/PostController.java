@@ -1,9 +1,7 @@
 package com.spring.docs;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequiredArgsConstructor
@@ -14,5 +12,10 @@ public class PostController {
     @PostMapping("/save")
     public Long savePost(@RequestBody SaveRequest request) {
         return postService.save(request);
+    }
+
+    @GetMapping("/post/{id}")
+    public PostResponse getPost(@PathVariable Long id) {
+        return postService.get(id);
     }
 }

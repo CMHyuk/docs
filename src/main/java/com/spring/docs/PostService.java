@@ -21,4 +21,14 @@ public class PostService {
 
         return post.getId();
     }
+
+    public PostResponse get(Long id) {
+        Post post = postRepository.findById(id)
+                .orElseThrow(IllegalArgumentException::new);
+
+        return PostResponse.builder()
+                .title(post.getTitle())
+                .content(post.getContent())
+                .build();
+    }
 }

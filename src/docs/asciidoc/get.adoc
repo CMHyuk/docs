@@ -1,0 +1,6 @@
+### 응답
+include::{snippets}/get/http-response.adoc[]
+
+### CURL
+include::{snippets}/get/curl-request.adoc[]
+
