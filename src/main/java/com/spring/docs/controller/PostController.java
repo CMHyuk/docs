@@ -1,5 +1,8 @@
-package com.spring.docs;
+package com.spring.docs.controller;
 
+import com.spring.docs.dto.PostResponse;
+import com.spring.docs.dto.SaveRequest;
+import com.spring.docs.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

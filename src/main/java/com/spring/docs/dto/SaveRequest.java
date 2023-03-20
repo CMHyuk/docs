@@ -1,4 +1,4 @@
-package com.spring.docs;
+package com.spring.docs.dto;
 
 import lombok.Getter;
 import lombok.Setter;

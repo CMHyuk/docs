@@ -1,4 +1,4 @@
-package com.spring.docs;
+package com.spring.docs.entity;
 
 import lombok.Builder;
 import lombok.Getter;

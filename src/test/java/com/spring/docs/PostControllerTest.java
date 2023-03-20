@@ -1,6 +1,9 @@
 package com.spring.docs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.spring.docs.dto.SaveRequest;
+import com.spring.docs.entity.Post;
+import com.spring.docs.repository.PostRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
