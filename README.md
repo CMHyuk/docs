@@ -4,7 +4,7 @@
 * json 형태로의 변환을 위해 ObjectMapper가 필요
 
 ## 흐름 정리
-1. 테스트 코드 작성 후 실행 (mockMvc는 따로 공부 필요)  
+1. 테스트 코드 작성 후 실행 (MockMvc는 따로 공부 필요)  [MockMvc 참고](https://velog.io/@jkijki12/Spring-MockMvc)
 
 ```
 //save 이름으로 저장되고 코드처럼 요청 필드 값만 별도로 저장할 수 있음(응답 값도 가능)  
